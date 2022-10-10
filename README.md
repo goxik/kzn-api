@@ -29,9 +29,9 @@ Uživatel může mít plný nebo omezený přístup (v závislosti na stupni par
 
 ## Aktivita (Turistický cíl)
 
-Aktivita (například turistický cíl) je typ obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově neomezenou dobou trvání.
+Aktivita (turistický cíl) je typ obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově neomezenou dobou trvání.
 
-Aktivit naleznete v sekci portálu [Co chcete dělat](https://www.kudyznudy.cz/co-chcete-delat).
+Aktivity naleznete v sekci portálu [Co chcete dělat](https://www.kudyznudy.cz/co-chcete-delat).
 
 ### Seznam aktivit (turistických cílů)
 
@@ -378,7 +378,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 
 ## Akce (Událost)
 
-Akce (Událost) je dalším typem obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově omezenou dobou trvání.
+Akce (událost) je dalším typem obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově omezenou dobou trvání.
 
 Akce naleznete v sekci portálu [Kalendář akcí](https://www.kudyznudy.cz/kalendar-akci).
 
