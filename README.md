@@ -1,6 +1,6 @@
 # Kudy z nudy API
 
-Níže je popsáno aplikační rozhraní (API) pro přístup k publikovanému obsahu a dalším službám na portálu [Kudy z nudy](https://www.kudyznudy.cz/). API slouží pro integraci externích subjektů a aplikací a umožňuje jim získávat primárně obsah publikovaný na portále. Stejný formát dat se také používá u obrácené integrace - tedy [importu dat od externích subjektů do Kudy z nudy](/Import).
+Níže je popsáno aplikační rozhraní (API) pro přístup k publikovanému obsahu a dalším službám na portálu [Kudy z nudy](https://www.kudyznudy.cz/). API slouží pro integraci externích subjektů a aplikací a umožňuje jim získávat primárně obsah publikovaný na portále. Stejný formát dat se také používá u obrácené integrace - tedy [importu dat od externích subjektů do Kudy z nudy](/Import.md).
 
 Provozovatelem portálu [Kudy z nudy](https://www.kudyznudy.cz) a poskytovatelem API je agentura [CzechTourism](https://www.czechtourism.cz/).
 
