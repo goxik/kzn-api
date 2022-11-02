@@ -6,7 +6,7 @@ Provozovatelem portálu [Kudy z nudy](https://www.kudyznudy.cz) a poskytovatelem
 
 ## Přístup k API
 
-API je přístupné pouze pro smluvní partnery CzechTourism. Pro přístup k API je nutné mít účet na portálu Kudy z nudy a k tomuto účtu mít přidělena přístupová práva. Přístupová práva obdrží partner od poskytovatele API. Více informací pro získání přístupu naleznete na [Kudy z nudy - API](https://www.kudyznudy.cz/faq-casto-kladene-otazky/api).
+API je přístupné pouze pro smluvní partnery CzechTourism. **Pro přístup k API je nutné mít účet na portálu Kudy z nudy a k tomuto účtu mít přidělena přístupová práva.** Přístupová práva obdrží partner od poskytovatele API. Více informací pro získání přístupu naleznete na [Kudy z nudy - API](https://www.kudyznudy.cz/faq-casto-kladene-otazky/api).
 
 ## Základní informace k API
 
@@ -29,9 +29,9 @@ Uživatel může mít plný nebo omezený přístup (v závislosti na stupni par
 
 ## Aktivita (Turistický cíl)
 
-Aktivita (například turistický cíl) je typ obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově neomezenou dobou trvání.
+Aktivita (turistický cíl) je typ obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově neomezenou dobou trvání.
 
-Aktivit naleznete v sekci portálu [Co chcete dělat](https://www.kudyznudy.cz/co-chcete-delat).
+Aktivity naleznete v sekci portálu [Co chcete dělat](https://www.kudyznudy.cz/co-chcete-delat).
 
 ### Seznam aktivit (turistických cílů)
 
@@ -52,7 +52,7 @@ Pro získání aktivit změněných po určitém čase je volání služby násl
         "date": "2022-10-10T00:00:00.000Z"
     }'
 
-Metoda se hodí například pro efektivnější synchronizaci dat.
+*Metoda se hodí například pro efektivnější synchronizaci dat.*
 
 Odpověď je pole JSON objektů. Například:
 
@@ -306,60 +306,54 @@ Plnohodnotný objekt (v případně plného přístupu):
 Veřejná část objektu (v případě omezeného Public přístupu):
 
     {
-        "@context": "https://www.kudyznudy.cz/kzn/context/v1/turisticky-cil-public.jsonld",
-        "typ": "Turistický cíl",
-        "id": "bb3f60b0-c668-4f31-a13c-780bb1b7c87f",
-        "iri": "https://www.kudyznudy.cz/aktivity/poutni-kostel-sv-jana-nepomuckeho-na-zelene-hore",
-        "název": {
-            "cs": "Zelená hora – poutní kostel sv. Jana Nepomuckého u Žďáru n. S."
+    "@context": "https://www.kudyznudy.cz/kzn/context/v1/turisticky-cil-public.jsonld",
+    "typ": "Turistický cíl",
+    "id": "bb3f60b0-c668-4f31-a13c-780bb1b7c87f",
+    "iri": "https://www.kudyznudy.cz/aktivity/poutni-kostel-sv-jana-nepomuckeho-na-zelene-hore",
+    "název": {
+        "cs": "Zelená hora – poutní kostel sv. Jana Nepomuckého u Žďáru n. S."
+    },
+    "vytvořeno": {
+        "typ": "Časový okamžik",
+        "datum_a_čas": "2010-04-11T10:21:57"
+    },
+    "aktualizováno": {
+        "typ": "Časový okamžik",
+        "datum_a_čas": "2022-07-14T05:32:48.4597958"
+    },
+    "popis": {
+        "cs": "Kostel sv. Jana Nepomuckého na Zelené hoře ve Žďáru nad Sázavou je národní kulturní památka zapsaná na Seznamu světového dědictví UNESCO. Byl postaven na začátku 20. let 18. století a je nepochybně nejosobitějším dílem J. B. Santiniho Aichla."
         },
-        "vytvořeno": {
-            "typ": "Časový okamžik",
-
-    "datum_a_čas": "2010-04-11T10:21:57"
-        },
-        "aktualizováno": {
-            "typ": "Časový okamžik",
-
-    "datum_a_čas": "2022-07-14T05:32:48.4597958"
-        },
-        "popis": {
-            "cs": "Kostel sv. Jana Nepomuckého na Zelené hoře ve Žďáru nad Sázavou je národní kulturní památka zapsaná na Seznamu světového dědictví UNESCO. Byl postaven na začátku 20. let 18. století a je nepochybně nejosobitějším dílem J. B. Santiniho Aichla."
-        },
-        "geometrie": {
-            "typ": "Point",
-            "coordinates": [
+    "geometrie": {
+        "typ": "Point",
+        "coordinates": [
                 49.5828245,
                 15.9375815
-            ]
-        },
-        "příloha": [
-            {
-                "typ": "Digitální objekt",
-                "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/8b/8b880b32-2c6d-49d1-816b-9e0f3d165fa2.jpg?v=20220714053247",
-
-    "autor_díla": null,
-
-    "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
-                "název": {
-                    "cs": "Poutmí kostel ve Ždáru_foto Libor Svácek"
-                },
-                "popis": null
+        ]
+    },
+    "příloha": [
+        {
+            "typ": "Digitální objekt",
+            "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/8b/8b880b32-2c6d-49d1-816b-9e0f3d165fa2.jpg?v=20220714053247",
+            "autor_díla": null,
+            "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
+            "název": {
+                "cs": "Poutmí kostel ve Ždáru_foto Libor Svácek"
             },
-            {
-                "typ": "Digitální objekt",
-                "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/f3/f30fbc88-9eb2-4a03-96b3-a69a36bfb79c.jpg?v=20220714053247",
-
-    "autor_díla": null,
-
-    "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
-                "název": {
-                    "cs": "Autor Chris Borg"
-                },
-                "popis": {
-                    "cs": "Autor Chris Borg"
-                }
+            "popis": null
+        },
+        {
+            "typ": "Digitální objekt",
+            "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/f3/f30fbc88-9eb2-4a03-96b3-a69a36bfb79c.jpg?v=20220714053247",
+            "autor_díla": null,
+            "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
+            "název": {
+                "cs": "Autor Chris Borg"
+            },
+            "popis": {
+                "cs": "Autor Chris Borg"
             }
+        }
         ]
     }
 
@@ -378,7 +372,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 
 ## Akce (Událost)
 
-Akce (Událost) je dalším typem obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově omezenou dobou trvání.
+Akce (událost) je dalším typem obsahu publikovaného na portálu Kudy z nudy. Vyznačuje se časově omezenou dobou trvání.
 
 Akce naleznete v sekci portálu [Kalendář akcí](https://www.kudyznudy.cz/kalendar-akci).
 
@@ -617,7 +611,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 
     "autor_díla": null,
 
-    "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
+    "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
                 "název": {
                     "cs": "PCF"
                 },
@@ -629,7 +623,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 
     "autor_díla": null,
 
-    "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
+    "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
                 "název": {
                     "cs": "PCF"
                 },
@@ -712,7 +706,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
                 "typ": "Digitální objekt",
                 "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/70/70d1a90e-d5c2-4fd1-becb-c531e3ec65be.jpg?v=20220603023310",
                 "autor_díla": null,
-                "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
+                "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
                 "název": {
                     "cs": "PCF"
                 },
@@ -722,7 +716,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
                 "typ": "Digitální objekt",
                 "url": "https://dbcsx3kp2k1lc.cloudfront.net/files/0f/0ff52200-7302-4553-8412-81a307c00d4b.jpg?v=20220603023310",
                 "autor_díla": null,
-                "typ_média": "http://www.iana.org/assignments/media-types/image/jpeg",
+                "typ_média": "https://www.iana.org/assignments/media-types/image/jpeg",
                 "název": {
                     "cs": "PCF"
                 },
