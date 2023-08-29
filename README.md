@@ -298,10 +298,10 @@ Plnohodnotný objekt (v případně plného přístupu):
       "id": "bc0f8dd4-243f-4ff8-97df-858ec5b3343c",
       "název": {
         "cs": "ekologické cestování"
-      }
+          }
+        }
+      ]
     }
-  ]
-}
 
 | **Hodnota** | **Popis hodnoty** |
 | --- | --- |
@@ -334,6 +334,16 @@ Veřejná část objektu (v případě omezeného Public přístupu):
     {
     "@context": "https://www.kudyznudy.cz/kzn/context/v1/turisticky-cil-public.jsonld",
     "typ": "Turistický cíl",
+    "typ_turistického_cíle": [
+        "https://www.kudyznudy.cz/co-chcete-delat/pamatky",
+        "https://www.kudyznudy.cz/co-chcete-delat/zazitky",
+        "https://www.kudyznudy.cz/co-chcete-delat/zivotni-styl"
+    ],
+    "kategorie_turistického_cíle": [
+        "https://www.kudyznudy.cz/co-chcete-delat/pamatky/cirkevni-pamatky",
+        "https://www.kudyznudy.cz/co-chcete-delat/zazitky/organizovane-vylety-a-exkurze",
+        "https://www.kudyznudy.cz/co-chcete-delat/zazitky/netradicni-prohlidky"
+    ],
     "id": "bb3f60b0-c668-4f31-a13c-780bb1b7c87f",
     "iri": "https://www.kudyznudy.cz/aktivity/poutni-kostel-sv-jana-nepomuckeho-na-zelene-hore",
     "název": {
@@ -412,6 +422,8 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | --- | --- |
 | @context | Popis formátu dat – šablona jsonld (JSON schema: [https://www.kudyznudy.cz/kzn/context/v1/turisticky-cil-public.jsonld](https://www.kudyznudy.cz/kzn/context/v1/turisticky-cil-public.jsonld)) |
 | typ | Turistický cíl |
+| typ_turistického_cíle | Pole typů turistického cíle (první je hlavní) |
+| kategorie_turistického_cíle | Pole kategorií typů turistických cílů |
 | id | Unikátní GUID záznamu |
 | iri | Unikání adresa záznamu (URL detailu článku na Kudy z nudy) |
 | název | Název článku (titulek) |
@@ -749,6 +761,11 @@ Veřejná část objektu (v případě omezeného Public přístupu):
     {
         "@context": "https://www.kudyznudy.cz/kzn/context/v1/udalost-public.jsonld",
         "typ": "Událost",
+        "id": "d3ba097e-9ad7-4de2-af3c-18e395dfbbcc",
+        "iri": "https://www.kudyznudy.cz/akce/prague-car-festival-2021",
+        "název": {
+            "cs": "Prague Car Festival 2022"
+        },
         "doba_trvání": [
             {
                 "typ": "Časová specifikace",
@@ -764,6 +781,10 @@ Veřejná část objektu (v případě omezeného Public přístupu):
                     }
                 }
             }
+        ],
+        "typ_události": [
+            "https://www.kudyznudy.cz/kalendar-akci/festivaly",
+            "https://www.kudyznudy.cz/kalendar-akci/vystavy"
         ],
         "id": "d3ba097e-9ad7-4de2-af3c-18e395dfbbcc",
         "iri": "https://www.kudyznudy.cz/akce/prague-car-festival-2021",
@@ -842,6 +863,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | @context | Popis formátu dat – šablona jsonld (JSON schema: [https://www.kudyznudy.cz/kzn/context/v1/udalost-public.jsonld](https://www.kudyznudy.cz/kzn/context/v1/udalost-public.jsonld)) |
 | typ | Událost |
 | doba_trvání | Začátek a konec akce |
+| typ_události | Pole typů události (první je hlavní) |
 | id | Unikátní GUID záznamu |
 | iri | Unikání adresa záznamu (URL detailu článku na Kudy z nudy) |
 | název | Název článku (titulek) |
