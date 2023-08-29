@@ -275,7 +275,23 @@ Plnohodnotný objekt (v případně plného přístupu):
             },
             "popis": null
         }
-    ]
+    ],
+    "certifikace": [
+    {
+      "typ": "Certifikace",
+      "id": "84cdadc6-1e81-4040-9b86-9fd3f6afbb2c",
+      "název": {
+        "cs": "aktivní Česko"
+      }
+    },
+    {
+      "typ": "Certifikace",
+      "id": "bc0f8dd4-243f-4ff8-97df-858ec5b3343c",
+      "název": {
+        "cs": "ekologické cestování"
+      }
+    }
+  ]
 }
 
 | **Hodnota** | **Popis hodnoty** |
@@ -302,6 +318,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 | kategorie_vstupného | Ceny jednotlivých typů vstupného |
 | otevírací_doba | Definice otevírací doby v jednotlivých dnech |
 | příloha | Pole obrázků a jejich metadat |
+| certifikace | Seznam platných certifikací záznamu |
 
 Veřejná část objektu (v případě omezeného Public přístupu):
 
@@ -354,7 +371,23 @@ Veřejná část objektu (v případě omezeného Public přístupu):
                 "cs": "Autor Chris Borg"
             }
         }
-        ]
+        ],
+    "certifikace": [
+        {
+          "typ": "Certifikace",
+          "id": "84cdadc6-1e81-4040-9b86-9fd3f6afbb2c",
+          "název": {
+            "cs": "aktivní Česko"
+          }
+        },
+        {
+          "typ": "Certifikace",
+          "id": "bc0f8dd4-243f-4ff8-97df-858ec5b3343c",
+          "název": {
+            "cs": "ekologické cestování"
+          }
+        }
+      ]
     }
 
 | **Hodnota** | **Popis hodnoty** |
@@ -369,6 +402,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | popis | Krátká anotace (perex) – prostý text |
 | geometrie | Souřadnice GPS |
 | příloha | Pole obrázků a jejich metadat |
+| certifikace | Seznam platných certifikací záznamu |
 
 ## Akce (Událost)
 
@@ -629,7 +663,23 @@ Plnohodnotný objekt (v případně plného přístupu):
                 },
                 "popis": null
             }
-        ]
+        ],
+    "certifikace": [
+        {
+          "typ": "Certifikace",
+          "id": "84cdadc6-1e81-4040-9b86-9fd3f6afbb2c",
+          "název": {
+            "cs": "aktivní Česko"
+          }
+        },
+        {
+          "typ": "Certifikace",
+          "id": "bc0f8dd4-243f-4ff8-97df-858ec5b3343c",
+          "název": {
+            "cs": "ekologické cestování"
+          }
+        }
+      ]
     }
 
 | **Hodnota** | **Popis hodnoty** |
@@ -656,6 +706,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 | kategorie_vstupného | Ceny jednotlivých typů vstupného |
 | otevírací_doba | Definice otevírací doby v jednotlivých dnech |
 | příloha | Pole obrázků a jejich metadat |
+| certifikace | Seznam platných certifikací záznamu |
 
 Veřejná část objektu (v případě omezeného Public přístupu):
 
@@ -722,7 +773,23 @@ Veřejná část objektu (v případě omezeného Public přístupu):
                 },
                 "popis": null
             }
-        ]
+        ],
+        "certifikace": [
+        {
+          "typ": "Certifikace",
+          "id": "84cdadc6-1e81-4040-9b86-9fd3f6afbb2c",
+          "název": {
+            "cs": "aktivní Česko"
+          }
+        },
+        {
+          "typ": "Certifikace",
+          "id": "bc0f8dd4-243f-4ff8-97df-858ec5b3343c",
+          "název": {
+            "cs": "ekologické cestování"
+          }
+        }
+      ]
     }
 
 | **Hodnota** | **Popis hodnoty** |
@@ -738,3 +805,4 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | popis | Krátká anotace (perex) – prostý text |
 | geometrie | Souřadnice GPS |
 | příloha | Pole obrázků a jejich metadat |
+| certifikace | Seznam platných certifikací záznamu |
