@@ -147,11 +147,20 @@ Plnohodnotný objekt (v případně plného přístupu):
             "cs": "Areál Žireč, Domov sv. Josefa"
         },
         "geometrie": {
-            "typ": "Point",
-            "coordinates": [
+            "typ": "Lokalita",
+            "souřadnice": [
                 50.413444519042969,
                 15.853754043579102
-            ]
+            ],
+            "kraj": {
+              "cs": "Královéhradecký kraj"
+            },
+            "oblast": {
+              "cs": "Podkrkonoší – Podzvičinsko"
+            },
+            "město": {
+              "cs": "Dvůr Králové nad Labem"
+            }
         },
         "adresa": {
             "typ": "Kontaktní adresa",
@@ -342,11 +351,20 @@ Veřejná část objektu (v případě omezeného Public přístupu):
         "cs": "Kostel sv. Jana Nepomuckého na Zelené hoře ve Žďáru nad Sázavou je národní kulturní památka zapsaná na Seznamu světového dědictví UNESCO. Byl postaven na začátku 20. let 18. století a je nepochybně nejosobitějším dílem J. B. Santiniho Aichla."
         },
     "geometrie": {
-        "typ": "Point",
-        "coordinates": [
+        "typ": "Lokalita",
+        "souřadnice": [
                 49.5828245,
                 15.9375815
-        ]
+        ],
+        "kraj": {
+          "cs": "Kraj Vysočina"
+        },
+        "oblast": {
+          "cs": "Koruna Vysočiny"
+        },
+        "město": {
+          "cs": "Žďár nad Sázavou"
+        }
     },
     "příloha": [
         {
@@ -400,7 +418,7 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | vyvořeno | Datum a čas vytvoření |
 | aktualizováno | Datum a čas poslední změny |
 | popis | Krátká anotace (perex) – prostý text |
-| geometrie | Souřadnice GPS |
+| geometrie | Lokalita a souřadnice GPS |
 | příloha | Pole obrázků a jejich metadat |
 | certifikace | Seznam platných certifikací záznamu |
 
@@ -564,11 +582,20 @@ Plnohodnotný objekt (v případně plného přístupu):
                 "cs": "Prague Car Festival s.r.o."
             },
             "geometrie": {
-                "typ": "Point",
-                "coordinates": [
+                "typ": "Lokalita",
+                "souřadnice": [
                     50.12938386099312,
                     14.551111294871998
-                ]
+                ],
+                "kraj": {
+                  "cs": "Praha"
+                },
+                "oblast": {
+                  "cs": "Praha"
+                },
+                "město": {
+                  "cs": "Praha 9"
+                }                
             },
             "adresa": {
                 "typ": "Kontaktní adresa",
@@ -600,11 +627,20 @@ Plnohodnotný objekt (v případně plného přístupu):
                     "cs": "PVA EXPO PRAHA Letňany"
                 },
                 "geometrie": {
-                    "typ": "Point",
-                    "coordinates": [
+                    "typ": "Lokalita",
+                    "souřadnice": [
                         50.129423083832535,
                         14.514344635522487
-                    ]
+                    ],
+                    "kraj": {
+                      "cs": "Praha"
+                    },
+                    "oblast": {
+                      "cs": "Praha"
+                    },
+                    "město": {
+                      "cs": "Praha 9"
+                    }
                 },
                 "adresa": {
                     "typ": "Kontaktní adresa",
@@ -746,11 +782,20 @@ Veřejná část objektu (v případě omezeného Public přístupu):
             "cs": "Největší výstava ve střední a východní Evropě se zaměřením na tuning, motorsport, historické automobily a motocykly."
         },
         "geometrie": {
-            "typ": "Point",
-            "coordinates": [
+            "typ": "Lokalita",
+            "souřadnice": [
                 50.12938386099312,
                 14.551111294871998
-            ]
+            ],
+            "kraj": {
+              "cs": "Praha"
+            },
+            "oblast": {
+              "cs": "Praha"
+            },
+            "město": {
+              "cs": "Praha 9"
+            }
         },
         "příloha": [
             {
@@ -803,6 +848,6 @@ Veřejná část objektu (v případě omezeného Public přístupu):
 | vyvořeno | Datum a čas vytvoření |
 | aktualizováno | Datum a čas poslední změny |
 | popis | Krátká anotace (perex) – prostý text |
-| geometrie | Souřadnice GPS |
+| geometrie | Lokalita a souřadnice GPS |
 | příloha | Pole obrázků a jejich metadat |
 | certifikace | Seznam platných certifikací záznamu |
