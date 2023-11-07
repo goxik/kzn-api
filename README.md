@@ -138,7 +138,8 @@ Plnohodnotný objekt (v případně plného přístupu):
     "vhodné_pro_děti": false,
     "vhodné_pro_zvířata": false,
     "za_každého_počasí": false,
-    "bezbariériový_přístup": true,
+    "bezbariériový_přístup": true,    
+    "aktivní_česko": false,
     "časová_náročnost": 1.5,
     "registrace": null,
     "pořadatel": {
@@ -320,6 +321,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 | vhodné_pro_zvířata | Vhodné pro zvířata (true / false) |
 | za_každého_počasí | Za každého počasí (true / false) |
 | bezbariériový_přístup | Bezbariérový přístup (true / false) |
+| aktivní_česko | Aktivní Česko (true / false) |
 | časová_náročnost | Počet hodin potřebných k návštěvě místa |
 | registrace | URL adresa registrace na externím webu |
 | pořadatel | Adresa, a kontakt na pořadatele |
@@ -583,6 +585,8 @@ Plnohodnotný objekt (v případně plného přístupu):
     "za_každého_počasí": true,
 
     "bezbariériový_přístup": true,
+    
+    "aktivní_česko": false,
 
     "časová_náročnost": 2,
         "registrace": {
@@ -747,6 +751,7 @@ Plnohodnotný objekt (v případně plného přístupu):
 | vhodné_pro_zvířata | Vhodné pro zvířata (true / false) |
 | za_každého_počasí | Za každého počasí (true / false) |
 | bezbariériový_přístup | Bezbariérový přístup (true / false) |
+| aktivní_česko | Aktivní Česko (true / false) |
 | časová_náročnost | Počet hodin potřebných k návštěvě místa |
 | registrace | URL adresa registrace na externím webu |
 | pořadatel | Adresa, a kontakt na pořadatele |
