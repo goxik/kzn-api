@@ -135,11 +135,15 @@ Plnohodnotný objekt (v případně plného přístupu):
     "dlouhý_popis": {
         "cs": "<a href=\"~/aktivity/barokni-areal-zirec\">Areál Žireč</a> se nachází v části obce Žireč ve Dvoře Králové nad Labem. Můžete navštívit krásnou bylinkovou zahradu a posedět v ní s šálkem kávy z kavárny Damián nebo se projít v rozlehlém přírodním parku. Areál je zároveň domovem pro lidi nemocné roztroušenou sklerózou mozkomíšní, kteří žijí v Domově sv. Josefa. Hlavní budova Domova je bývalou barokní jezuitskou rezidencí. Svojí návštěvou podpoříte péči o nemocné i lidi se sníženou pracovní schopností, kteří vás mohou obsloužit v jednotlivých provozech. Návštěvy a komentované prohlídky jsou možné domluvit po celý rok.<br />\r\n<br />\r\nV Areálu naleznete největší cykloexpozici ve střední Evropě. V kostele sv. Anny se nalézá unikátní barokní zvonový klavír na světě &ndash; jediný svého druhu, dále vzácné varhany, jeden z mála dochovaných deskových jezuitských betlémů a mnoho dalších zajímavých předmětů."
     },
-    "vhodné_pro_děti": false,
-    "vhodné_pro_zvířata": false,
-    "za_každého_počasí": false,
-    "bezbariériový_přístup": true,    
     "aktivní_česko": false,
+    "bezbariériový_přístup": true,
+    "ekologicky_šetrné": false,        
+    "smetana_200": false,
+    "vhodné_pro_děti": true,
+    "vhodné_pro_dospělé": false,
+    "vhodné_pro_firmení_akce": false,
+    "vhodné_pro_zvířata": true,
+    "za_každého_počasí": true,
     "časová_náročnost": 1.5,
     "registrace": null,
     "pořadatel": {
@@ -317,11 +321,15 @@ Plnohodnotný objekt (v případně plného přístupu):
 | aktualizováno | Datum a čas poslední změny |
 | popis | Krátká anotace (perex) – prostý text |
 | dlouhý_popis | HTML text pokračující za krátkým popisem |
+| aktivní_česko | Aktivní Česko (true / false) |
+| bezbariériový_přístup | Bezbariérový přístup (true / false) |
+| ekologicky_šetrné | Ekologicky šetrné (true / false) |
+| smetana_200 | Projekt Smetana200 (true / false) |
 | vhodné_pro_děti | Vhodné pro děti (true / false) |
+| vhodné_pro_dospělé | Vhodné pro dospělé (true / false) |
+| vhodné_pro_firmení_akce | Vhodné pro firemní akce (true / false) |
 | vhodné_pro_zvířata | Vhodné pro zvířata (true / false) |
 | za_každého_počasí | Za každého počasí (true / false) |
-| bezbariériový_přístup | Bezbariérový přístup (true / false) |
-| aktivní_česko | Aktivní Česko (true / false) |
 | časová_náročnost | Počet hodin potřebných k návštěvě místa |
 | registrace | URL adresa registrace na externím webu |
 | pořadatel | Adresa, a kontakt na pořadatele |
@@ -578,15 +586,23 @@ Plnohodnotný objekt (v případně plného přístupu):
             "cs": "Jedenáctý ročník akce evropského významu nabídne vystavovatelům i návštěvníkům \<strong\>jedinečnou podívanou \</strong\>na široké spektrum unikátních automobilů a motocyklů. Výstava spojuje oblasti upravených a sportovních vozů, světa motorsportu a historie vozidel. \<strong\>Prague Car Festival\</strong\> představí na ploše přes 30 000 m\<sup\>2\</sup\> \<strong\>nejlepší tuning z celé Evropy\</strong\>, českou i zahraniční špičku automobilových a motocyklových závodů a průřez bohatou historií vývoje automobilů a motocyklů \<strong\>od předválečného období až po současnost\</strong\>.\r\n\r\n\<h3\>\<br /\>\r\n\<strong\>BSR Tuning Expo\</strong\>\</h3\>\r\nVýstava BSR Tuning Expo nabízí skvosty z české tuningové scény a celé Evropy, profesionální tuningové firmy, sportovní automobily a americké vozy tvoří hlavní obsahovou část výstavních hal. Návštěvníci uvidí přes 500 jedinečných exponátů. K tomu soutěže, workshopy, akční jízdy a srazy na venkovní ploše a také doprovodný program pro celou rodinu vytvářejí jedinečnou příležitost pro návštěvníky všech generací."
         },
 
-    "vhodné_pro_děti": true,
-
-    "vhodné_pro_zvířata": true,
-
-    "za_každého_počasí": true,
-
+    "aktivní_česko": false,
+    
     "bezbariériový_přístup": true,
     
-    "aktivní_česko": false,
+    "ekologicky_šetrné": false,
+    
+    "smetana_200": false,
+    
+    "vhodné_pro_děti": true,
+    
+    "vhodné_pro_dospělé": false,
+    
+    "vhodné_pro_firmení_akce": false,
+    
+    "vhodné_pro_zvířata": true,
+    
+    "za_každého_počasí": true,
 
     "časová_náročnost": 2,
         "registrace": {
@@ -747,11 +763,15 @@ Plnohodnotný objekt (v případně plného přístupu):
 | aktualizováno | Datum a čas poslední změny |
 | popis | Krátká anotace (perex) – prostý text |
 | dlouhý_popis | HTML text pokračující za krátkým popisem |
+| aktivní_česko | Aktivní Česko (true / false) |
+| bezbariériový_přístup | Bezbariérový přístup (true / false) |
+| ekologicky_šetrné | Ekologicky šetrné (true / false) |
+| smetana_200 | Projekt Smetana200 (true / false) |
 | vhodné_pro_děti | Vhodné pro děti (true / false) |
+| vhodné_pro_dospělé | Vhodné pro dospělé (true / false) |
+| vhodné_pro_firmení_akce | Vhodné pro firemní akce (true / false) |
 | vhodné_pro_zvířata | Vhodné pro zvířata (true / false) |
 | za_každého_počasí | Za každého počasí (true / false) |
-| bezbariériový_přístup | Bezbariérový přístup (true / false) |
-| aktivní_česko | Aktivní Česko (true / false) |
 | časová_náročnost | Počet hodin potřebných k návštěvě místa |
 | registrace | URL adresa registrace na externím webu |
 | pořadatel | Adresa, a kontakt na pořadatele |
