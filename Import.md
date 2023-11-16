@@ -114,8 +114,8 @@ Následují ukázky JSON objektů popisují příklady detailu akce a aktivity. 
                 "cs": "Areál Žireč, Domov sv. Josefa"
             },
             "geometrie": {
-                "typ": "Point",
-                "coordinates": [
+                "typ": "Lokalita",
+                "souřadnice": [
                     50.413444519042969,
                     15.853754043579102
                 ]
@@ -341,8 +341,8 @@ Následují ukázky JSON objektů popisují příklady detailu akce a aktivity. 
                 "cs": "Prague Car Festival s.r.o."
             },
             "geometrie": {
-                "typ": "Point",
-                "coordinates": [
+                "typ": "Lokalita",
+                "souřadnice": [
                     50.12938386099312,
                     14.551111294871998
                 ]
@@ -377,8 +377,8 @@ Následují ukázky JSON objektů popisují příklady detailu akce a aktivity. 
                     "cs": "PVA EXPO PRAHA Letňany"
                 },
                 "geometrie": {
-                    "typ": "Point",
-                    "coordinates": [
+                    "typ": "Lokalita",
+                    "souřadnice": [
                         50.129423083832535,
                         14.514344635522487
                     ]
